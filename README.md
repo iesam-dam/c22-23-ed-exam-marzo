@@ -6,8 +6,8 @@
 2. Desarrollo de Diagrama de Casos de Uso e implementación.
 3. Control de Versiones (Git). Ramas. Pull Requests.
 4. Principios SOLID.
-5. Arquitectura.
-6. Patrones de Diseño: Factory y Singleton.
+5. Arquitectura: presentation, domain y data.
+6. Patrones de Diseño: Repository y Singleton.
 
 ## Enunciado (Contexto)
 
