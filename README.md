@@ -58,6 +58,7 @@ El banco realiza las siguiente acciones:
 
 En el desarrollo del software se distinguen cinco fases, ¿Cuales son? ¿Cómo las aplicarías en este examen?
 
+
 ### Ejercicio 2
 
 Diseña el diagrama de clases.
