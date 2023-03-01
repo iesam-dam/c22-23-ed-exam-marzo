@@ -39,7 +39,7 @@ El banco realiza las siguiente acciones:
   del banco.
 - Un cliente puede tener compras y gastos (transacciones) y se tiene que reflejar en la cuenta bancaria.
 - Un cliente desea poder consultar los datos de su cuenta bancaria: transacciones realizadas, saldos, etc.
-- Un cliente puede contratar productos del banco o no.
+- Un cliente puede contratar productos del banco o no. Los productos van asociados a la cuenta bancaria.
 
 ## Ejercicios a realizar
 
