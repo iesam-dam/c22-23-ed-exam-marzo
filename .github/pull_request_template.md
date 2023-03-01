@@ -1,11 +1,5 @@
 ## Description de la tarea
-Las fases desarrolo son:
-Analisis
-Desarrollo
-Implementacion
-Verificacion
-Presentacion
-
+Los principos solidos son los pilares fundamentales de la programacion relacioanda a objetos
 ## ¿Cómo se ha implementado?
 
 ## Keywords
