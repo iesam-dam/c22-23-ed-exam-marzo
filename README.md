@@ -72,7 +72,7 @@ Responde a la siguiente pregunta: ¿Qué son los principios SOLID? ¿Dónde lo a
 
 ### Ejercicio 5
 
-Implementa el diagrama de clases y de casos de uso para los siguientes casos:
+Implementa en Java las siguientes funcionalidades:
 
 - Crear una transacción de cobros.
 - Crear una transacción de pagos.
