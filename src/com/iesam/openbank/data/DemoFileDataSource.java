@@ -3,7 +3,7 @@ package com.iesam.openbank.data;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.iesam.openbank.domain.models.Demo;
+import com.iesam.openbank.domain.Demo;
 
 import java.io.File;
 import java.io.FileNotFoundException;
