@@ -1,7 +1,10 @@
 package com.iesam.openbank.domain;
 
+import java.util.ArrayList;
+
 public class Customer {
     private final String dni;
+    private ArrayList<BankAccount> bankAccount= new ArrayList<>();
     private String name;
     private String lastName;
     private String adress;
@@ -59,5 +62,13 @@ public class Customer {
 
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
+    }
+
+    public ArrayList<BankAccount> getBankAccount() {
+        return bankAccount;
+    }
+
+    public void setBankAccount(BankAccount bankAccount) {
+        this.bankAccount.add(bankAccount);
     }
 }

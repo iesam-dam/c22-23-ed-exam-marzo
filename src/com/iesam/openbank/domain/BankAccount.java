@@ -4,16 +4,14 @@ import java.util.ArrayList;
 
 public class BankAccount {
     private final String numberAccount;
-    private final Customer customer;
-    private ArrayList<Transaction> transaction;
-    private ArrayList<Mortgage> mortgages;
+    private final String customerId;
+    private ArrayList<Transaction> transaction=new ArrayList<>();
+    private ArrayList<Mortgage> mortgages=new ArrayList<>();
     private double amount;
 
-    public BankAccount(String numberAccount, Customer customer, ArrayList<Transaction> transaction, ArrayList<Mortgage> mortgages, double amount) {
+    public BankAccount(String numberAccount, String customer, double amount) {
         this.numberAccount = numberAccount;
-        this.customer = customer;
-        this.transaction = transaction;
-        this.mortgages = mortgages;
+        this.customerId = customer;
         this.amount = amount;
     }
 
@@ -21,24 +19,24 @@ public class BankAccount {
         return numberAccount;
     }
 
-    public Customer getCustomer() {
-        return customer;
+    public String getCustomer() {
+        return customerId;
     }
 
     public ArrayList<Transaction> getTransaction() {
         return transaction;
     }
 
-    public void setTransaction(ArrayList<Transaction> transaction) {
-        this.transaction = transaction;
+    public void setTransaction(Transaction transaction) {
+        this.transaction.add(transaction);
     }
 
     public ArrayList<Mortgage> getMortgages() {
         return mortgages;
     }
 
-    public void setMortgages(ArrayList<Mortgage> mortgages) {
-        this.mortgages = mortgages;
+    public void setMortgages(Mortgage mortgages) {
+        this.mortgages.add(mortgages);
     }
 
     public double getAmount() {

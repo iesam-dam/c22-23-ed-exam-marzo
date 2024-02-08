@@ -1,6 +1,7 @@
 package com.iesam.openbank.domain;
 
 public class Mortgage {
+    private final String accountId;
     private final String code;
     private String name;
     private String description;
@@ -9,7 +10,8 @@ public class Mortgage {
     private String endDate;
     private double amount;
 
-    public Mortgage(String code, String name, String description, String startDate, double tax, String endDate, double amount) {
+    public Mortgage(String accountId,String code, String name, String description, String startDate, double tax, String endDate, double amount) {
+        this.accountId=accountId;
         this.code = code;
         this.name = name;
         this.description = description;
@@ -17,6 +19,10 @@ public class Mortgage {
         this.tax = tax;
         this.endDate = endDate;
         this.amount = amount;
+    }
+
+    public String getAccountId() {
+        return accountId;
     }
 
     public String getCode() {
