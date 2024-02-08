@@ -48,7 +48,6 @@ public class BankDataRepository implements BankRepository {
         for(int i=0; i<bankAccountList.size(); i++){
             if(bankAccountList.get(i).getNumberAccount().equals(mortgage.getAccountId())){
                 bankAccountList.get(i).setMortgages(mortgage);
-
             }
         }
         mortgageList.add(mortgage);

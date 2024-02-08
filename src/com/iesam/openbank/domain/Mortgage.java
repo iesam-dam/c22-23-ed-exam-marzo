@@ -72,4 +72,18 @@ public class Mortgage {
     public void setAmount(double amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return "Mortgage{" +
+                "accountId='" + accountId + '\'' +
+                ", code='" + code + '\'' +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", startDate='" + startDate + '\'' +
+                ", tax=" + tax +
+                ", endDate='" + endDate + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }

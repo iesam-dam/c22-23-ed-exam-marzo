@@ -71,4 +71,17 @@ public class Customer {
     public void setBankAccount(BankAccount bankAccount) {
         this.bankAccount.add(bankAccount);
     }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "dni='" + dni + '\'' +
+                ", bankAccount=\n" + bankAccount +
+                ",\n name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", adress='" + adress + '\'' +
+                ", population='" + population + '\'' +
+                ", postalCode='" + postalCode + '\'' +
+                '}';
+    }
 }

@@ -46,4 +46,15 @@ public class BankAccount {
     public void setAmount(double amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "numberAccount='" + numberAccount + '\'' +
+                ", customerId=" + customerId + '\'' +
+                ", transaction=\n" + transaction +
+                ",\n mortgages=\n" + mortgages +
+                ",\n amount=" + amount +
+                '}';
+    }
 }
