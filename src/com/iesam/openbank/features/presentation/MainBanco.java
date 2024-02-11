@@ -1,14 +1,9 @@
 package com.iesam.openbank.features.presentation;
 
 import com.iesam.openbank.features.data.*;
-import com.iesam.openbank.features.data.CustomerDataRepository;
-import com.iesam.openbank.features.data.MovementsDataRepository;
-import com.iesam.openbank.features.data.ProductDataRepository;
 import com.iesam.openbank.features.domain.*;
-import com.iesam.openbank.features.domain.Customer;
-import com.iesam.openbank.features.domain.Movements;
 import com.iesam.openbank.features.domain.models.*;
-import com.iesam.openbank.features.domain.Producto;
+
 
 public class MainBanco {
 
