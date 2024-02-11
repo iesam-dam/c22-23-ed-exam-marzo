@@ -1,9 +1,9 @@
-package com.iesam.openbank.data;
+package com.iesam.openbank.features.data;
 
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.iesam.openbank.domain.models.Demo;
+import com.iesam.openbank.features.domain.models.Demo;
 
 import java.io.File;
 import java.io.FileNotFoundException;
