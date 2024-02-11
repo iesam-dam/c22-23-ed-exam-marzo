@@ -62,7 +62,7 @@ public class BankAcc {
         setSaldo(getSaldo() + transacciones.getImporte());
     }
 
-    public void contratar (Producto productoCont){
+    public void addProduct(Producto productoCont){
         this.producto = productoCont;
     }
 
