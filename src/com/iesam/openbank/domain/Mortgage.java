@@ -10,8 +10,8 @@ public class Mortgage {
     private String endDate;
     private double amount;
 
-    public Mortgage(String accountId,String code, String name, String description, String startDate, double tax, String endDate, double amount) {
-        this.accountId=accountId;
+    public Mortgage(String accountId, String code, String name, String description, String startDate, double tax, String endDate, double amount) {
+        this.accountId = accountId;
         this.code = code;
         this.name = name;
         this.description = description;
@@ -24,6 +24,7 @@ public class Mortgage {
     public String getAccountId() {
         return accountId;
     }
+
 
     public String getCode() {
         return code;
@@ -86,4 +87,5 @@ public class Mortgage {
                 ", amount=" + amount +
                 '}';
     }
+
 }

@@ -2,42 +2,17 @@ package com.iesam.openbank.domain;
 
 import java.util.ArrayList;
 
-public class Customer {
-    private final String dni;
+public class Customer extends Person{
     private ArrayList<BankAccount> bankAccount= new ArrayList<>();
-    private String name;
-    private String lastName;
     private String adress;
     private String population;
     private String postalCode;
 
     public Customer(String dni, String name, String lastName, String adress, String population, String postalCode) {
-        this.dni = dni;
-        this.name = name;
-        this.lastName = lastName;
+        super(dni, name, lastName);
         this.adress = adress;
         this.population = population;
         this.postalCode = postalCode;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
     }
 
     public String getAdress() {
@@ -75,10 +50,7 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "dni='" + dni + '\'' +
-                ", bankAccount=\n" + bankAccount +
-                ",\n name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
+                "bankAccount=" + bankAccount +
                 ", adress='" + adress + '\'' +
                 ", population='" + population + '\'' +
                 ", postalCode='" + postalCode + '\'' +

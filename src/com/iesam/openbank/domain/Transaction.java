@@ -33,10 +33,6 @@ public class Transaction {
         this.amountMovement = amountMovement;
     }
 
-    public String getAccountId() {
-        return accountId;
-    }
-
     @Override
     public String toString() {
         return "Transaction{" +
@@ -46,4 +42,9 @@ public class Transaction {
                 ", amountMovement=" + amountMovement +
                 '}';
     }
+
+    public String getAccountId() {
+        return accountId;
+    }
+
 }

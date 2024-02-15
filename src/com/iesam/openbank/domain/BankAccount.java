@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class BankAccount {
     private final String numberAccount;
-    private final String customerId;
+    private final Customer customer;
     private ArrayList<Transaction> transaction=new ArrayList<>();
     private ArrayList<Mortgage> mortgages=new ArrayList<>();
     private double amount;
 
-    public BankAccount(String numberAccount, String customer, double amount) {
+    public BankAccount(String numberAccount, Customer customer, double amount) {
         this.numberAccount = numberAccount;
-        this.customerId = customer;
+        this.customer = customer;
         this.amount = amount;
     }
 
@@ -19,8 +19,8 @@ public class BankAccount {
         return numberAccount;
     }
 
-    public String getCustomer() {
-        return customerId;
+    public Customer getCustomer() {
+        return customer;
     }
 
     public ArrayList<Transaction> getTransaction() {
@@ -51,10 +51,11 @@ public class BankAccount {
     public String toString() {
         return "BankAccount{" +
                 "numberAccount='" + numberAccount + '\'' +
-                ", customerId=" + customerId + '\'' +
+                ", customer=" + customer + '\'' +
                 ", transaction=\n" + transaction +
                 ",\n mortgages=\n" + mortgages +
                 ",\n amount=" + amount +
                 '}';
     }
+
 }

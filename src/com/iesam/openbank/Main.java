@@ -18,13 +18,13 @@ public class Main {
         );
         BankAccount bankAccount=new BankAccount(
                 "2",
-                "888",
+                customer,
                 1500
         );
         MainBankAccount.createCustomer(customer,bankAccount);
         BankAccount bankAccount1=new BankAccount(
                 "3",
-                "888",
+                customer,
                 300
         );
         MainBankAccount.createBankAccount(bankAccount1);
@@ -53,6 +53,6 @@ public class Main {
                 18000
         );
         MainBankAccount.createMortgage(mortgage);
-        MainBankAccount.getCustomer("888");
+        MainBankAccount.getCustomer("1");
     }
 }

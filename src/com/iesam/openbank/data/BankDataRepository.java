@@ -22,7 +22,7 @@ public class BankDataRepository implements BankRepository {
     }
     private void initData(){
         customerList.add(new Customer("1","juan","zuniga","avenida","avila","05002"));
-        bankAccountList.add(new BankAccount("1","1",1200));
+        bankAccountList.add(new BankAccount("1",customerList.get(0),1200));
         transactionList.add(new Transaction("T1","1","Retiro",150));
         mortgageList.add(new Mortgage("1","M1","mortgage","mortgage of house","12-12-2023",2.2,"12-12-2033",15000));
     }
