@@ -1,6 +1,7 @@
 package com.iesam.openbank.data;
 
 import com.iesam.openbank.domain.*;
+import com.iesam.openbank.domain.BankProducts.Mortgage;
 import com.iesam.openbank.domain.Person.Customer;
 
 import java.util.ArrayList;

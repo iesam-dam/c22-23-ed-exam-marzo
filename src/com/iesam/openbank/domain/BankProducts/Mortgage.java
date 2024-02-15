@@ -1,4 +1,4 @@
-package com.iesam.openbank.domain;
+package com.iesam.openbank.domain.BankProducts;
 
 public class Mortgage {
     private final String accountId;

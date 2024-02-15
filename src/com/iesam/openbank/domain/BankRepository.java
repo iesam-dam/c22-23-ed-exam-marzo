@@ -1,5 +1,6 @@
 package com.iesam.openbank.domain;
 
+import com.iesam.openbank.domain.BankProducts.Mortgage;
 import com.iesam.openbank.domain.Person.Customer;
 
 public interface BankRepository {

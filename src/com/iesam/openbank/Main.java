@@ -2,7 +2,7 @@ package com.iesam.openbank;
 
 import com.iesam.openbank.domain.BankAccount;
 import com.iesam.openbank.domain.Person.Customer;
-import com.iesam.openbank.domain.Mortgage;
+import com.iesam.openbank.domain.BankProducts.Mortgage;
 import com.iesam.openbank.domain.Transaction;
 import com.iesam.openbank.presentation.MainBankAccount;
 

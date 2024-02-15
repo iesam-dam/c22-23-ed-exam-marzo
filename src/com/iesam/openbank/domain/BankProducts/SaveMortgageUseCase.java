@@ -1,4 +1,6 @@
-package com.iesam.openbank.domain;
+package com.iesam.openbank.domain.BankProducts;
+
+import com.iesam.openbank.domain.BankRepository;
 
 public class SaveMortgageUseCase {
     private final BankRepository bankRepository;
