@@ -1,50 +1,20 @@
 package com.iesam.openbank.domain.BankProducts;
 
-public class Mortgage {
-    private final String accountId;
-    private final String code;
-    private String name;
-    private String description;
+public class Mortgage extends BankProduct{
+
     private final String startDate;
     private double tax;
     private String endDate;
     private double amount;
 
-    public Mortgage(String accountId, String code, String name, String description, String startDate, double tax, String endDate, double amount) {
-        this.accountId = accountId;
-        this.code = code;
-        this.name = name;
-        this.description = description;
+    public Mortgage(String code, String name, String numberAccount,String description, String startDate, double tax, String endDate, double amount) {
+        super(code, name, numberAccount, description);
         this.startDate = startDate;
         this.tax = tax;
         this.endDate = endDate;
         this.amount = amount;
     }
 
-    public String getAccountId() {
-        return accountId;
-    }
-
-
-    public String getCode() {
-        return code;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 
     public String getStartDate() {
         return startDate;
@@ -77,10 +47,6 @@ public class Mortgage {
     @Override
     public String toString() {
         return "Mortgage{" +
-                "accountId='" + accountId + '\'' +
-                ", code='" + code + '\'' +
-                ", name='" + name + '\'' +
-                ", description='" + description + '\'' +
                 ", startDate='" + startDate + '\'' +
                 ", tax=" + tax +
                 ", endDate='" + endDate + '\'' +

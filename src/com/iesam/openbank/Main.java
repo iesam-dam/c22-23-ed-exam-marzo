@@ -43,9 +43,9 @@ public class Main {
         );
         MainBankAccount.createTransaction(transaction1);
         Mortgage mortgage=new Mortgage(
-                "3",
                 "M2",
                 "Hipoteca",
+                "3",
                 "Hipoteca casa",
                 "01-01-2024",
                 2.5,
