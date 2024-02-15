@@ -2,6 +2,7 @@ package com.iesam.openbank.presentation;
 
 import com.iesam.openbank.data.BankDataRepository;
 import com.iesam.openbank.domain.*;
+import com.iesam.openbank.domain.Person.Customer;
 
 public class MainBankAccount {
     public static void createBankAccount(BankAccount bankAccount){

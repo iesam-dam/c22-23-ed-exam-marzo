@@ -1,5 +1,7 @@
 package com.iesam.openbank.domain;
 
+import com.iesam.openbank.domain.Person.Customer;
+
 import java.util.ArrayList;
 
 public class BankAccount {

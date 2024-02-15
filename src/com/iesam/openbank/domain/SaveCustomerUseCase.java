@@ -1,5 +1,7 @@
 package com.iesam.openbank.domain;
 
+import com.iesam.openbank.domain.Person.Customer;
+
 public class SaveCustomerUseCase {
     private final BankRepository bankRepository;
 

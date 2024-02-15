@@ -1,4 +1,6 @@
-package com.iesam.openbank.domain;
+package com.iesam.openbank.domain.Person;
+
+import com.iesam.openbank.domain.BankAccount;
 
 import java.util.ArrayList;
 
