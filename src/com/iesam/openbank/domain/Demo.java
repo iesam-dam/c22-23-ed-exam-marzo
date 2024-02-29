@@ -1,4 +1,4 @@
-package com.iesam.openbank.domain.models;
+package com.iesam.openbank.domain;
 
 public class Demo {
     private Integer id;
